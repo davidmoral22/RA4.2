@@ -8,7 +8,7 @@ package ar.charlycimino.ejemplos.excepcionespropias;
  * Encontrá más código en mi repo de GitHub: https://github.com/CharlyCimino
  */
 public class Calculadora {
-    public int factorial (int num) {
+    public int factorial (final int num) {
         if (num < 0) {
             throw new ArithmeticException("No se puede calcular el factorial de un número negativo");
         }
