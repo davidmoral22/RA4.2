@@ -19,7 +19,7 @@ public class VisorDeTXTs {
             System.out.println( br.readLine());
         } catch (IOException e) {
             System.out.println("Error de E/S: " + e.getMessage());
-            throw new RuntimeException("Error inesperado en el catch");
+            throw new RuntimeException("Error inesperado en el catch", e);
         }
     }
 }

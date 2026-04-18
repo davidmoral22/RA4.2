@@ -14,6 +14,7 @@ public class Test7 {
     */
     public static void main(String[] args) {
         Persona p = new Persona(-1);
+        System.out.println(p); // Al usar 'p' aquí, el error de PMD desaparece
     }
 
 }

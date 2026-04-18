@@ -8,8 +8,6 @@ package ar.charlycimino.ejemplos.uncheckedexceptions;
  */
 public class Persona {
 
-    private int edad;
-
     public Persona(int edad) {
         setEdad(edad);
     }
